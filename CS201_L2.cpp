@@ -5,6 +5,7 @@
 
 using namespace std;
 
+//Created using ChatGPT, prompted with lab instructions
 // Helper function to validate binary input
 bool isValidBinary(const std::string& binary) {
     for (char c : binary) {
@@ -15,6 +16,7 @@ bool isValidBinary(const std::string& binary) {
     return true;
 }
 
+//Created using ChatGPT, prompted with lab instructions
 // Helper function to convert a decimal number to a string in a given base
 std::string decimalToBase(int decimal, int base) {
     if (decimal == 0) return "0";
@@ -33,6 +35,7 @@ std::string decimalToBase(int decimal, int base) {
     return result;
 }
 
+//Created using ChatGPT, prompted with lab instructions
 // Convert binary to decimal
 int binaryToDecimal() {
     string binary;
@@ -61,6 +64,7 @@ int binaryToDecimal() {
     return 1;
 }
 
+//Created using ChatGPT, prompted with lab instructions
 // Convert binary to another base (2 to 16)
 int binaryToOtherBase() {
     string binary;
@@ -101,6 +105,7 @@ int binaryToOtherBase() {
     return 1;
 }
 
+//Created using ChatGPT, prompted with lab instructions
 // Convert decimal number to binary
 void decimalToBinary() {
     int decimal;
@@ -123,6 +128,7 @@ void decimalToBinary() {
     cout << "Binary value: " << binary << endl;
 }
 
+//Created using ChatGPT, prompted with lab instructions
 // Convert number in user-given base (2-16) to binary
 void otherBaseToBinary() {
     string input;
